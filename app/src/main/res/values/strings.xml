@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="tejas_ahirrao">Tejas Ahirrao</string>
+    <string name="EnterNickname">Enter Your nick name</string>
+    <string name="ImageDiscription">profile Photo</string>
+    <string name="Bio">Junior at SKN Sinhgad institute of technology and science, Lonavala. perceiving my career in the field of Software Development. Have done certification and projects in various fields such as WordPress, Python, C/C++ programing, Networking, java, android, Linux. also having experience of leadership and teamwork by organizing various types events, technical programs and leading coding club in college.Junior at SKN Sinhgad institute of technology and science, Lonavala. perceiving my career in the field of Software Development. Have done certification and projects in various fields such as WordPress, Python, C/C++ programing, Networking, java, android, Linux. also having experience of leadership and teamwork by organizing various types events, technical programs and leading coding club in college.Junior at SKN Sinhgad institute of technology and science, Lonavala. perceiving my career in the field of Software Development. Have done certification and projects in various fields such as WordPress, Python, C/C++ programing, Networking, java, android, Linux. also having experience of leadership and teamwork by organizing various types events, technical programs and leading coding club in college.</string>
+    <string name="NicknameButton">ENTER</string>
+
+</resources>

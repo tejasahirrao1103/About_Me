@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<data>
+    <variable
+        name="myName"
+        type="com.tejraj.aboutme.MyName" />
+</data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@={myName.heading}"
+        android:textSize="@dimen/Heading"
+        style="@style/textStyle" />
+
+    <ImageView
+        android:contentDescription="@string/ImageDiscription"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        />
+
+    <TextView
+        android:id="@+id/NicknameOP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@={myName.nickNameOp}"
+        android:textSize="@dimen/SubHeading"
+        style="@style/textStyle"
+
+        />
+
+    <EditText
+        android:id="@+id/NicknameIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EnterNickname"
+        style="@style/textStyle"
+        android:textSize="@dimen/NormalText"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NicknameButton"
+        style="@style/textStyle"
+        android:textStyle="bold"
+        android:background="@color/blue"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            style="@style/textStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_slab"
+            android:padding="@dimen/padding"
+            android:text="@string/Bio"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/NormalText" />
+    </ScrollView>
+</LinearLayout>
+</layout>

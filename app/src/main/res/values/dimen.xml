@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Heading">34sp</dimen>
+    <dimen name="SubHeading">28sp</dimen>
+    <dimen name="NormalText">20sp</dimen>
+    <dimen name="padding">15sp</dimen>
+</resources>
